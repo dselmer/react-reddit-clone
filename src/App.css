@@ -1,3 +1,37 @@
-.search-bar {
-  padding: 100px;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.searchBar-container {
+  display: flex;
+  justify-content: flex-end;
+  /* border: 2px solid green; */
+}
+
+.search-box {
+  width: 100%;
+  /* border: 2px solid purple; */
+  padding: 10px;
+}
+
+.card-container {
+  /* border: 2px solid red; */
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+
+.logo {
+  text-align: center;
+  margin: 0;
+}
+
+span {
+  color: rgb(66, 28, 238);
 }
