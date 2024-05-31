@@ -17,7 +17,6 @@
 }
 
 .card-container {
-  /* border: 2px solid red; */
 }
 
 .logo-container {
@@ -53,7 +52,6 @@ span {
 
 .icons {
   font-size: 25px;
-  border: 2px solid black;
   margin-left: 12px;
 }
 
