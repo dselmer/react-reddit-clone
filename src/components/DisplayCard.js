@@ -3,6 +3,8 @@ import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import "../App.css";
+import { FaArrowUp } from "react-icons/fa";
+import { FaArrowDown } from "react-icons/fa";
 
 export default function DisplayCard() {
   return (
@@ -15,7 +17,9 @@ export default function DisplayCard() {
                 <Card className="g-4">
                   <div className=" flex-container">
                     <div className="cta-container">
-                      <h2>testing</h2>
+                      <FaArrowUp className="icon icons" />
+                      <h6>15.2K</h6>
+                      <FaArrowDown className="icon icons" />
                     </div>
                     <Card.Body>
                       <Card.Title>Card title</Card.Title>
