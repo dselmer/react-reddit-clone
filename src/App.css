@@ -35,3 +35,15 @@
 span {
   color: rgb(66, 28, 238);
 }
+
+.flex-container {
+  display: flex;
+  justify-content: flex-start;
+  border: 2px solid green;
+}
+
+.cta-container {
+  border: 2px solid purple;
+  height: 40px;
+  margin-top: 50px;
+}
