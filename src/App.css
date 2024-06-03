@@ -59,3 +59,24 @@ h6 {
   margin: 0px;
   margin-left: 8px;
 }
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .logo-container {
+    display: flex;
+  }
+
+  .search-box {
+    width: 80%;
+  }
+
+  .searchBar-container {
+    display: flex;
+    justify-content: space-around;
+    /* border: 2px solid green; */
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
