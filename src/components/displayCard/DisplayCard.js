@@ -2,10 +2,10 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
-import "../App.css";
+import "../../App.css";
 import { PiArrowFatUpLight } from "react-icons/pi";
 import { PiArrowFatDownLight } from "react-icons/pi";
-
+import Footer from "../footer/Footer";
 export default function DisplayCard() {
   return (
     <>
@@ -29,6 +29,7 @@ export default function DisplayCard() {
                       />
                     </Card.Body>
                   </div>
+                  <Footer />
                 </Card>
               </Col>
             </>
