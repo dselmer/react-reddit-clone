@@ -26,6 +26,7 @@ export default function DisplayCard() {
                       <Card.Img
                         variant="top"
                         src="https://placehold.jp/150x150.png"
+                        className="img"
                       />
                     </Card.Body>
                   </div>
