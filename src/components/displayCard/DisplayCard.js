@@ -9,8 +9,8 @@ import Footer from "../footer/Footer";
 export default function DisplayCard() {
   return (
     <>
-      <div className="card-container ">
-        <Row xs={1} md={2} className="g-4 cta-container">
+      <div className="card-container">
+        <Row xs={1} md={2} className="g-4 row-container">
           {Array.from({ length: 4 }).map((_, idx) => (
             <>
               <Col key={idx}>
@@ -25,7 +25,7 @@ export default function DisplayCard() {
                       <Card.Title>Card title</Card.Title>
                       <Card.Img
                         variant="top"
-                        src="https://placehold.jp/150x150.png"
+                        src="https://placehold.jp/1050x1050.png"
                         className="img"
                       />
                     </Card.Body>

@@ -16,9 +16,6 @@
   padding: 10px;
 }
 
-.card-container {
-}
-
 .logo-container {
   display: flex;
   justify-content: center;
@@ -41,6 +38,7 @@ span {
   /* border: 2px solid green; */
 }
 
+.row-container,
 .cta-container {
   display: flex;
   flex-flow: column;
@@ -80,6 +78,17 @@ h6 {
 
   h6 {
     font-size: 22.5px;
+  }
+
+  .card-container {
+    padding-left: 50px;
+    border: 2px solid red;
+    overflow: scroll;
+    height: 100vh;
+  }
+
+  .cta-container {
+    margin-top: 30px;
   }
 }
 
