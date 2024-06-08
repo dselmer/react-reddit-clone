@@ -6,6 +6,7 @@ import "../../App.css";
 import { PiArrowFatUpLight } from "react-icons/pi";
 import { PiArrowFatDownLight } from "react-icons/pi";
 import Footer from "../footer/Footer";
+import SideViewComponent from "../sideviewComponent/SideViewComponent";
 export default function DisplayCard() {
   return (
     <>
@@ -36,6 +37,7 @@ export default function DisplayCard() {
             </>
           ))}
         </Row>
+        <SideViewComponent />
       </div>
     </>
   );
