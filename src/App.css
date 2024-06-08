@@ -10,17 +10,13 @@
   /* border: 2px solid green; */
 }
 
-.search-box {
-  width: 100%;
-  /* border: 2px solid purple; */
-  padding: 10px;
-}
-
 .logo-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  display: none;
+  margin: 60px auto;
+  padding: 40px 110px;
+  border: 2px solid rgb(235, 228, 228);
 }
 
 .logo {
@@ -53,7 +49,7 @@ span {
   margin-left: 12px;
 }
 
-h6 {
+h4 {
   margin: 0px;
   margin-left: 8px;
 }
@@ -64,8 +60,20 @@ h6 {
     display: flex;
   }
 
+  .logo-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0 10px;
+    border: none;
+  }
+
   .search-box {
-    width: 80%;
+    width: 100%;
+    /* border: 2px solid purple; */
+    padding: 10px;
+    display: block;
   }
 
   .searchBar-container {

@@ -5,9 +5,9 @@ function SearchBar() {
   return (
     <div className="searchBar-container">
       <div className="logo-container">
-        <h6 className="logo">
+        <h4 className="logo">
           <span>Reddit</span>Minimal
-        </h6>
+        </h4>
       </div>
       <div className="search-box">
         <Form.Control placeholder="search" type="text" id="inputText" />
