@@ -114,7 +114,7 @@ h4 {
   .card-container {
     display: flex;
     align-items: flex-start;
-    height: 100vh;
+    height: fit-content;
     /* border: 2px solid red; */
   }
 
@@ -123,8 +123,23 @@ h4 {
   }
 
   .row-container {
-    margin: 0;
+    display: flex;
+    margin-top: 0;
+    height: fit-content;
     width: 50%;
+    border: 2px solid green;
+  }
+  .card {
+    border: 2px solid blue;
+  }
+  .col {
+    border: 2px solid red;
+    width: 100%;
+  }
+
+  .card {
+    border: 2px solid tomato;
+    width: 100%;
   }
 }
 
