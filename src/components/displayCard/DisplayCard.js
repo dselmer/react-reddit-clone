@@ -14,7 +14,7 @@ export default function DisplayCard() {
           {Array.from({ length: 4 }).map((_, idx) => (
             <>
               <Col key={idx}>
-                <Card className="g-4">
+                <Card className="g-4 card">
                   <div className=" flex-container">
                     <div className="cta-container">
                       <PiArrowFatUpLight className="icon icons" />
