@@ -10,12 +10,16 @@
   /* border: 2px solid green; */
 }
 
+.search-box {
+  display: none;
+}
+
 .logo-container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 60px auto;
-  padding: 40px 110px;
+  margin: 20px auto;
+  padding: 40px 90px;
   border: 2px solid rgb(235, 228, 228);
 }
 
