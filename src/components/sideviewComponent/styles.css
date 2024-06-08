@@ -1,4 +1,11 @@
 .sideview-container {
-  border: 2px solid red;
-  width: 30%;
+  display: none;
+}
+
+@media only screen and (min-width: 992px) {
+  .sideview-container {
+    border: 2px solid red;
+    width: 30%;
+    display: block;
+  }
 }
