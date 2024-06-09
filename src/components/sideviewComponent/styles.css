@@ -3,10 +3,29 @@
 }
 
 @media only screen and (min-width: 992px) {
-  .sideview-container {
-    border: 2px solid red;
+  .sideview-container-flex {
+    /* border: 2px solid green; */
     width: 25%;
     margin-left: 20px;
     display: block;
+    border: 2px solid rgb(228, 225, 225);
+  }
+
+  .subreddit-title-container {
+    margin: 32px;
+    /* border: 2px solid red; */
+  }
+
+  .profile-image-container {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    /* border: 2px solid blue; */
+  }
+
+  .subreddit-profile-image {
+    width: 45px;
+    margin: 10px 30px;
+    border-radius: 100px;
   }
 }

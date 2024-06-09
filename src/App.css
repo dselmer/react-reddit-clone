@@ -127,18 +127,16 @@ h4 {
     margin-top: 0;
     height: fit-content;
     width: 50%;
-    border: 2px solid green;
+    /* border: 2px solid green; */
   }
-  .card {
-    border: 2px solid blue;
-  }
+
   .col {
-    border: 2px solid red;
+    /* border: 2px solid red; */
     width: 100%;
   }
 
   .card {
-    border: 2px solid tomato;
+    /* border: 2px solid tomato; */
     width: 100%;
   }
 }
