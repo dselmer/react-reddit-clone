@@ -5,8 +5,8 @@ import Row from "react-bootstrap/Row";
 import "../../App.css";
 import { PiArrowFatUpLight } from "react-icons/pi";
 import { PiArrowFatDownLight } from "react-icons/pi";
-import Footer from "../footer/Footer";
-import SideViewComponent from "../SideViewComponent/SideView";
+import FooterContainer from "../../Containers/FooterContainer/FooterContainer";
+import SideViewContainer from "../../Containers/SideViewContainer/SideViewContainer";
 export default function DisplayCard() {
   return (
     <>
@@ -31,13 +31,13 @@ export default function DisplayCard() {
                       />
                     </Card.Body>
                   </div>
-                  <Footer />
+                  <FooterContainer />
                 </Card>
               </Col>
             </>
           ))}
         </Row>
-        <SideViewComponent />
+        <SideViewContainer />
       </div>
     </>
   );
