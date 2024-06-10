@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../footer/styles.css";
+import styles from "./styles.css";
 import { CiChat2 } from "react-icons/ci";
 import Card from "react-bootstrap/Card";
 

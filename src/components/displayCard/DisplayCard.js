@@ -6,7 +6,7 @@ import "../../App.css";
 import { PiArrowFatUpLight } from "react-icons/pi";
 import { PiArrowFatDownLight } from "react-icons/pi";
 import Footer from "../footer/Footer";
-import SideViewComponent from "../sideviewComponent/SideViewComponent";
+import SideViewComponent from "../SideViewComponent/SideView";
 export default function DisplayCard() {
   return (
     <>

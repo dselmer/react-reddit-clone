@@ -1,13 +1,13 @@
 import React from "react";
-import SearchBar from "./components/searchBar/SearchBar";
+import SearchBar from "./Components/searchBar/SearchBar";
 import "bootstrap/dist/css/bootstrap.min.css";
-import DisplayCard from "./components/displayCard/DisplayCard";
+import DisplayCardContainer from "./Containers/DisplayCard/DisplayCardContainer";
 
 export default function App() {
   return (
     <>
       <SearchBar />
-      <DisplayCard />
+      <DisplayCardContainer />
     </>
   );
 }
