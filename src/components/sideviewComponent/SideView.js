@@ -2,7 +2,7 @@ import React from "react";
 import Card from "react-bootstrap/Card";
 import styles from "./styles.css";
 
-export default function SideViewComponent() {
+export default function SideView() {
   return (
     <div className="sideview-container-flex">
       <div className="subreddit-title-container">
